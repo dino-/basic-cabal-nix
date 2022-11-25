@@ -2,7 +2,7 @@ cabal-version: 2.2
 
 name: basic-cabal-nix
 version: 1.0
--- synopsis:
+synopsis: Basic Haskell project template using nix flakes and cabal
 -- description:
 author: Dino Morelli
 maintainer: dino@ui3.info
