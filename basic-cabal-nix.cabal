@@ -13,9 +13,10 @@ license-file: LICENSE
 build-type: Simple
 extra-source-files:
   CHANGELOG.md
+  flake.lock
   flake.nix
+  .ghci
   .gitignore
-  nix/stack-integration.nix
   README.md
 
 source-repository head
