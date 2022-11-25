@@ -8,6 +8,14 @@ Basic Haskell project template using nix flakes and cabal
 
 ## Description
 
+Some basic tools are included in the nix develop shell
+
+- cabal
+- ghc (whatever version nixpkgs is at by default, which is not great I know)
+- ghcid
+- hasktags
+- hlint
+
 
 ## Getting source
 
@@ -18,9 +26,7 @@ you may need to enable the experimental features that flakes rely on to avoid
 warnings. In either `$HOME/.config/nix/nix.conf` or, if you have nix installed
 multi-user, `/etc/nix/nix.conf`
 
----
-extra-experimental-features = flakes nix-command
----
+    extra-experimental-features = flakes nix-command
 
 Start the nix develop shell from the project's top-level directory:
 
